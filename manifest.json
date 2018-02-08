@@ -15,7 +15,8 @@
 
    "content_scripts": [
     {
-      "matches": ["https://*.reddit.com/*"],
+      "matches": ["https://*.reddit.com/r/*","https://*.reddit.com/"],
+      "exclude_matches":["https://*.reddit.com/r/*/comments/*"],
       "css": ["ultrawide.css"],
       "js": ["omgWhatAmIDoing.js"]
     }
