@@ -1,0 +1,24 @@
+body { background: #eee}
+.side {background: #eee;}
+.content {margin: 0 30px;}
+.content .spacer {padding-top: 10px}
+.sitetable {display: flex; flex-flow: wrap;}
+
+.link {
+    width: 49%;
+    margin-bottom: 10px;
+    padding: 8px 0;
+    }
+
+body >.content .link .rank, .rank-spacer {width: 3ex;}
+.link.promotedlink.promoted, .link.promotedlink.external {
+    box-shadow: none}
+
+.NERPageMarker {width: 100%;}
+    @media (max-width: 1700px){
+        .sitetable {display: block;}
+        .link {width: 70%}
+        .NERPageMarker {width: auto}}
+
+    @media (max-width: 1050px){
+        .link {width: 60%}}
