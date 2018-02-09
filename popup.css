@@ -1,0 +1,26 @@
+a:link { text-decoration: none; color:  #942c34; }
+a:visited { text-decoration: none; color: #942c34; }
+
+button {
+  background-color: white;
+  color: black;
+  border: 1px solid #942c34;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #942c34;
+  color: white;
+}
+button:active {
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transform: translateY(2px);
+}
+
+body {
+  min-width: 300px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

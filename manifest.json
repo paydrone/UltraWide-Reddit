@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Ultrawide Reddit",
-  "description": "Browse Reddit with multiple columns",
+  "description": "Browse Reddit with multiple columns!",
   "version": "1.0",
 
   "browser_action": {
@@ -18,7 +18,7 @@
       "matches": ["https://*.reddit.com/r/*","https://*.reddit.com/"],
       "exclude_matches":["https://*.reddit.com/r/*/comments/*"],
       "css": ["ultrawide.css"],
-      "js": ["omgWhatAmIDoing.js"]
+      "js": ["ultrawide.js"]
     }
   ]
 }
